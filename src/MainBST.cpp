@@ -17,7 +17,6 @@ struct node{
 	int data;
 	struct node *right;
 };
-
 struct node *newNode(int key)
 {
 	struct node *temp = (struct node *)malloc(sizeof(struct node));
@@ -28,6 +27,5 @@ struct node *newNode(int key)
 }
 
 int main(){
-
-	//Use it for testing ,Creating BST etc
+	//Use it for testing ,Creating BST etc*/
 }
